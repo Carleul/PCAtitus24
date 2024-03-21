@@ -3,7 +3,7 @@
 
 - Dark Souls
   - DS1
-  - ˜DS2˜
+  - ~DS2~
   - DS3
 - Hollow Knight
 - Sekiro
