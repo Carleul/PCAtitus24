@@ -17,6 +17,6 @@
     - Unlimited Blade Works
     - Heaven`s Feel
 
-[link para as anotações da aula de hoje](Carleul/PCAtitus24/2024_03_21/journal.md)
+[link para as anotações da aula de hoje](2024_03_21/journal.md)
 
 ![alt text](image.png)
