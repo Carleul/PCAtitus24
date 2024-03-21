@@ -3,4 +3,3 @@ agora, pode versionar a documentação, o próprio código fonte, testes, imagen
 Git != GitHub
 Markdown (.md) linguagem de marcação para fácil compreensão por não programadores
 fazer o commit para declarar as alterações no código, e smpre clicar no +
-![alt text](<Captura de Tela 2024-03-21 às 10.53.30.png>)
