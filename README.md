@@ -1,2 +1,2 @@
 # PCAtitus24
-*SCM*: colaboração
+*SCM*: colabor**ação**
