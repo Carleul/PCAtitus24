@@ -19,4 +19,6 @@
 
 [link para as anotações da aula de hoje](2024_03_21/journal.md)
 
+| nome | idade | |----------|:-------------:| | Carlo | 18 | |----------|:-------------:| | João Pedro | 18 | |----------|:-------------:| | Matheus |  32 |
+
 ![alt text](image.png)
