@@ -1,4 +1,4 @@
-# Anotações 
+# Anotações 15/04
 
 - Lembrar de não publicar o pdf da aula aqui
 - json linguagem para postar coisas na internet não entendi direito a
