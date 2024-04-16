@@ -1,0 +1,27 @@
+# Anotações 16/04
+
+- argumentar com o cliente para sempre manter a versão do Python atualizada
+- CamelCase: usado para nome de classes
+- snake_case: usado para nomes de variáveis
+- constantes escritas com letras maiusculas e separadas por _ : MAX_VALUE = 100
+- existem nomes que não devem ser dados à variáveis por conta deles já terem significado no próprio python
+- Tipos de Dados:
+  - bool = tem valor verdadeiro ou falso
+  - None = ausencia de informação, algumas linguagens usam *null*
+  - str(string) = conjunto de caracteres, ex: 'hello', "world" , '123'. pode ser representado por aspas duplas ou simples
+    - podem ser usadas aspas triplas para fazer linhas quebradas
+  - list(lista) = coleção ordenada e *mutável* de itens
+  - tuple(tupla) = coleção ordenada e *imutável* de itens
+  - dict(dicionário) = conjunto *mutável* de pares chave-valor
+  - set(conjuntos) = grupo *mutável* e *não-ordenado* de itens únicos
+    - frozenset(conjunto congelado): igual o conjunto por'wm não mutável
+- Operadores Matemáticos
+  - soma: +
+  - subtração: -
+  - multiplicação: *
+  - divisão: /
+  - div: //
+  - mod: %
+  - potencia: **
+  - radiciação usa potencia, ex: raiz quadrada de 9 seria 9**(1/2)
+- *sempre que colocar um input, a variável será devolvida como uma string, então lembrar de colocar int() antes do input!!*
