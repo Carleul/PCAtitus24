@@ -2,7 +2,7 @@ ANO_ATUAL = 2025
 
 ano = int(input('qual o seu ano de nascimento?'))
 
-if ano > ANO_ATUAL or ano > ANO_ATUAL - 150:
+if ano > ANO_ATUAL or ano < ANO_ATUAL - 150:
         print('cadastro negado.')
 
 estudo = input('você estuda? responda com s ou n:')
