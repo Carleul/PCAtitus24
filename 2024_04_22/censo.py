@@ -31,10 +31,8 @@ if trabalho == 's':
 
         if estudo == 's'and ano >= ANO_ATUAL - 14 and ano <= ANO_ATUAL - 16:
                 print('cadastro reprovado.')
-elif:
+else:
         aposentadoria = input('você é aposentado? responda com s ou n:')
 
         if aposentadoria == 's'and ano > ANO_ATUAL - 62:
                 print('cadastro aprovado.')
-else:
-        print('cadastro aprovado.')
