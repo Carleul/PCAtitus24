@@ -19,20 +19,32 @@ if trabalho == 's':
 
         if renda < 0:
                 print('cadastro negado.')
+        else:
+                print('cadastro aprovado.')
 
         if regime == 'mei' and renda > 6750:
                 print('cadastro reprovado.')
+        else:
+                print('cadastro aprovado.')
 
         if regime == 'estag' and estudo != 's':
                 print('cadastro reprovado.')
+        else:
+                print('cadastro aprovado.')
 
         if ano > ANO_ATUAL - 14:
                 print('cadastro reprovado.')
+        else:
+                print('cadastro aprovado.')
 
         if estudo == 's' and ano >= ANO_ATUAL - 14 and ano <= ANO_ATUAL - 16:
                 print('cadastro reprovado.')
+        else:
+                print('cadastro aprovado.')
 else:
     aposentadoria = input('você é aposentado? responda com s ou n:')
 
         if aposentadoria == 's' and ano > ANO_ATUAL - 62:
                 print('cadastro aprovado.')
+        else:
+                print('cadastro reprovado.')
