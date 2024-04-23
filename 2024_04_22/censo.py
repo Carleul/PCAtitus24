@@ -18,7 +18,7 @@ if trabalho == 's':
         renda = float(input('qual é o valor da sua renda?'))
 
         if renda < 0:
-                print('cadastro negado.')
+                print('cadastro reprovado.')
         else:
                 print('cadastro aprovado.')
 
