@@ -24,3 +24,11 @@
     - texto_min = texto.lower() - i am the bone of my sword
     - texto_mai = texto.upper() - I AM THE BONE OF MY SWORD
     - texto_cap = texto.capitalize() - I am the bone of my sword
+
+- ASCII
+  - *importante pra caramba pro entregável!!*
+
+- Números pseudoaleatórios
+  - colocar o comando import random no começo do código e então escrever random.randint(1, 10) para gerar um número de 1 a 10
+
+- LeetCode e CodeWars são bons sites pra treinar fazendo exerc;icios de programação
