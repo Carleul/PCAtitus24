@@ -8,3 +8,5 @@ class Solution(object):
                     result.append(words.index(palavra))
                     break
         return result
+
+        # programa feito no LeetCode, não vai funcionar em qualquer IDE
