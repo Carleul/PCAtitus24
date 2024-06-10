@@ -19,11 +19,11 @@ def dia_semana(data_obj):
     return data_obj.strftime('esse dia foi %A')
 
 def finde(data_obj):
+    if data_obj.weekday() < 5:
+        return 'faltam', 5 - data_obj.weekday(), 'dias para o fim de semana.'
     if data_obj.weekday() == 5 or 6:
         return 'é fim de semana!'
-    else:
-        return 'faltam', 5 - data_obj.weekday(), 'dias para o fim de semana.'
-
+        
 def diferenca_dias(data_obj):
     if data_obj > datetime.date.today():
         diferenca = data_obj - datetime.date.today()
