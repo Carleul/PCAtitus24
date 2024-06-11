@@ -16,26 +16,27 @@ def linha_do_tempo(data):
         return 'essa data é no passado.'
 
 def dia_semana(data_obj):
-    return data_obj.strftime('esse dia foi %A')
+    return data_obj.strftime('esse dia é %A')
 
 def finde(data_obj):
     if data_obj.weekday() < 5:
-        return 'faltam', 5 - data_obj.weekday(), 'dias para o fim de semana.'
+        return 'faltam ' + str(5 - data_obj.weekday()) + ' dias para o fim de semana.'
     if data_obj.weekday() == 5 or 6:
         return 'é fim de semana!'
-        
+
+
 def diferenca_dias(data_obj):
     if data_obj > datetime.date.today():
         diferenca = data_obj - datetime.date.today()
-        return 'existe uma diferença de', diferenca, 'entre essa data e a atual'
+        return 'existe uma diferença de ' + str(diferenca.days) + ' dias entre essa data e a atual'
     elif data_obj < datetime.date.today():
         diferenca = datetime.date.today() - data_obj
-        return 'existe uma diferença de', diferenca, 'entre essa data e a atual'
+        return 'existe uma diferença de ' + str(diferenca.days) + ' dias entre essa data e a atual'
     else:
         return 'não existe diferença pois essa é a data atual'
 
 def proximo_mes(data_obj):
-    return 'essa data no próximo mês será:', data_obj.day , data_obj.month+1 , data_obj.year
+    return 'essa data no próximo mês será: ' + str(data_obj.day) + '/' + str(data_obj.month+1) + '/'  + str(data_obj.year)
 
 
 print(data_organizada(data_obj))
