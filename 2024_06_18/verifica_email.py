@@ -1,17 +1,12 @@
 def verifica_email(email):
     valida_email = []
-    conta_arroba = []
     for letter in email:
         valida_email.append(letter)
-        if letter == '@':
-            conta_arroba.append('@')
     if len(valida_email) < 3:
         return False
-    if valida_email[-4] != '.' or valida_email[-3] != 'c' or valida_email[-2] != 'o' or valida_email[-1] != 'm':
+    if not email.endswith('.com'):
         return False
-    elif '@' not in email:
-        return False
-    if len(conta_arroba) > 1:
+    if email.count('@') != 1:
         return False
     return True
 
