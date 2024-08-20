@@ -37,7 +37,7 @@
     - coisa ou pessoa que pode ser individualmente identificada
     - ex: cliente, produto, loja...
   - Atributos
-    - propriedades de uma entidade
+    - propriedades que descrevem uma entidade
     - podem ser simples ou compostos
     - cada atributo tem um domínio
     - ex: entidade: pessoa; atributos: nome, idade...
