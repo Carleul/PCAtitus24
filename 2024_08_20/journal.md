@@ -9,3 +9,14 @@
     - transações permanecem invisíveis para outras pessoas até que quem esteja alterando conclua a operação
   - Durabilidade
     - uma vez que a transação for concluída, ela permanecerá assim mesmo que dê alguma falha no sistema
+
+- Arquitetura de SGBDs
+  - Autonomia Distribuição Heterogeneidade (ADH)
+    - o serverless é brabo, tem o melhor de todas as 3 características
+    
+  - n-Camadas (3 ou mais camadas)
+    - bom para aplicações
+  - cliente/servidor
+    - bom para jogos
+  - serverless
+    - bom na maioria das situações
