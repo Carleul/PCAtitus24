@@ -13,10 +13,20 @@
 - Arquitetura de SGBDs
   - Autonomia Distribuição Heterogeneidade (ADH)
     - o serverless é brabo, tem o melhor de todas as 3 características
-    
+
   - n-Camadas (3 ou mais camadas)
     - bom para aplicações
   - cliente/servidor
     - bom para jogos
   - serverless
     - bom na maioria das situações
+
+- Criação de Banco de Dados
+  - Definição de Negócio
+    - modelagem conceitual
+
+  - Definição de estrutura
+    - modelagem lógica e física
+
+  - Inserção e Busca de Dados
+    - SQL
