@@ -28,3 +28,14 @@
 
 - Abstração
   - é o ato de simplificar algo complexo para permitir que o programador trabalhe de forma mais eficiente
+
+- Vantagens da POO
+  - facilita trabalho em equipe, divisão de trabalho
+  - reduz duplicação de código, o que diminui a chance de haver bugs
+  - simplifica o desgin do código, permitindo o foco em conceitos de alto nível
+
+- Desvantagens da POO
+  - maior complexidade
+  - pode impactar o desempenho quando comparado ao procedural
+  - o código tende a ser maior
+  - objetos podem consumir mais memória, devido a metadados e estrutura de dados
