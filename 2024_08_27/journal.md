@@ -17,19 +17,19 @@
     - (1,N) multi e obrigatório
     - quando não está escrito, vai ser (1,1)
   
-  - Generalização
-    - abstrair características de duas ou mais entidades para criar uma entidade pai
-    - ex: criar a entidade "cadastro" de "aluno" e "professor"
+- Generalização
+  - abstrair características de duas ou mais entidades para criar uma entidade pai
+  - ex: criar a entidade "cadastro" de "aluno" e "professor"
 
-  - Especialização
-    - criar entidades mais específicas a partir de uma entidade geral
-    - ex: criar entidades "pessoa física" e "empresa" de uma entidade "cliente"
+- Especialização
+  - criar entidades mais específicas a partir de uma entidade geral
+  - ex: criar entidades "pessoa física" e "empresa" de uma entidade "cliente"
 
-  - Tanto generalização quanto especialização são representados da mesma forma, com um triângulo
+- Tanto generalização quanto especialização são representados da mesma forma, com um triângulo
 
-  - Tipos de relacionamento
-    - Total
-      - obrigatoriamente a entidade pai será uma entidade filha
-    - Parcial
-      - nem sempre a entidade pai será uma entidade filha
+- Tipos de relacionamento
+  - Total
+    - obrigatoriamente a entidade pai será uma entidade filha
+  - Parcial
+    - nem sempre a entidade pai será uma entidade filha
   
