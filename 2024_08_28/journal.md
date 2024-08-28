@@ -28,5 +28,6 @@
   - quando as entidades não possuem um candidato a chave, combina-se dois atributos para criar uma chave composta
   - também é posssível criar um atributo identificador único de chave substituta(surrogate key)
 
-- Integridade Referencial
-  - 
+- Integridade Referencial (de Relacionamento/Identificação)
+  - garante que **chaves estrangeiras**(foreign key, **FK**) referenciem de maneira correta e consistente chaves primárias em outras tabelas
+  - não há representação gráfica para a chave estrangeira
