@@ -6,12 +6,18 @@
     - essas chaves vão representar uma outra tabela
 
 - Integridade de Relacionamento: Generalização
-  - total
+  - total (t)
     - precisa da ocorrencia de ao menos uma das especializadas
-  - parcial
+  - parcial (p)
     - não precisa da ocorrência de nenhuma das especializadas
   - +
-  - exclusivo
+  - exclusivo (d)
     - toda ocorrência da generalizada pode ser ocorrência de no máximo uma especializada
-  - interseção
+  - interseção (c)
     - uma ocorrência da generalizada pode ser ocorrência de várias especializadas
+
+- Verificando as Restrições
+  - elas vão ocorrer quando houver modificação ou alteração do banco de dados
+    - Inserção de dados
+    - Remoção de dados
+    - Alteração de dados
