@@ -21,3 +21,10 @@
     - Inserção de dados
     - Remoção de dados
     - Alteração de dados
+
+- Modelo Lógico
+  - o ato de transformar a modelagem conceitual em tabelas
+  - entidades viram tabelas, e seus atributos vão compor as colunas
+  - quando há atributos compostos, há a possibilidade de aplainar ou combinar
+    - aplainar: transforma cada subatributo em uma coluna diferente
+    - combinar: fazer somente uma coluna com o atributo pai
