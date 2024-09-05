@@ -5,4 +5,3 @@
   - FK apontando pra menor cardinalidade
   - quando as duas cardinalidades tem máximo N criar uma terceira tabela
   - quando as duas instâncias forem obrigatórias especificar FK NOT NULL
- 
