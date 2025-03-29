@@ -5,15 +5,14 @@
     - O Java foi originalmente projetado como uma linguagem de programação para dispositivos eletrônicos, mas rapidamente evoluiu para ser utilizado em aplicações web e sistemas corporativos.
     - aqui estão algumas das principais versões do Java:
       - Java 8
-        Introduziu novos recursos como Lambda Expressions, novos métodos e tipos, que deixaram os códigos mais enxutos . . . .
-      Java 17
-        Aprimorou as classes e interfaces seladas, simplificou comparações complexas e trouxe mais expressividade ao código .
-      Java 18
-        Padronizou o conjunto de caracteres com o UTF-8 e inseriu a anotação @Snippet documentar o código fonte . . . . . . . . . 
-      Java 22
-        Melhorou o desempenho, a estabilidade e a segurança . . . . . . . . . . . . . . . . . . . . . . .
-        . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
-      Java 23
+        Introduziu novos recursos como Lambda Expressions, novos métodos e tipos, que deixaram os códigos mais enxutos
+      - Java 17
+        Aprimorou as classes e interfaces seladas, simplificou comparações complexas e trouxe mais expressividade ao código
+      - Java 18
+        Padronizou o conjunto de caracteres com o UTF-8 e inseriu a anotação @Snippet documentar o código fonte
+      - Java 22
+        Melhorou o desempenho, a estabilidade e a segurança
+      - Java 23
         Melhora o desempenho, a estabilidade e a segurança do desenvolvimento de aplicações 
 # Parte 2 - IDEs
 - Conhecer as principais ferramentas utilizadas para programar em Java.
