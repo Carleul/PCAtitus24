@@ -20,13 +20,21 @@ public class Main {
             if (opcao == 1) {
                 System.out.print("Nome: ");
                 String nome = scanner.nextLine();
-                System.out.print("CPF: ");
-                String cpf = scanner.nextLine();
+                String cpf;
+                do {
+                    System.out.println("CPF (formato: XXX.XXX.XXX-XX): ");
+                    System.out.print("CPF: ");
+                    cpf = scanner.nextLine();
+                } while (!Utils.validaCpf(cpf));
                 System.out.print("Idade: ");
                 int idade = scanner.nextInt();
                 scanner.nextLine();
-                System.out.print("Telefone: ");
-                String telefone = scanner.nextLine();
+                String telefone;
+                do {
+                    System.out.println("Telefone (formato: (XX) 9XXXX-XXXX): ");
+                    System.out.print("Telefone: ");
+                    telefone = scanner.nextLine();
+                } while (!Utils.validaTelefone(telefone));
                 sistema.cadastrarPaciente(nome, cpf, idade, telefone);
 
             } else if (opcao == 2) {
