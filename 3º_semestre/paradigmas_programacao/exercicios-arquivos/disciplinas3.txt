@@ -1,0 +1,4 @@
+Paradigmas de Linguagens de Programação
+Desafio da Comunicação
+Otimização de Banco de Dados
+Engenharia de Software
